@@ -12,13 +12,14 @@ This project was coded by Talancia Pea and is {""}
     <a 
     href="https://github.com/tpea85/react-weather-app1/tree/master"
     target="_blank" rel="noreferrer"
-    >open-sourced on GitHub.</a>
+    >open-sourced on GitHub </a>{" "}
+    and{" "}
       <a
             href="https://chic-capybara-f48622.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            hosted on Netlify
+            hosted on Netlify.
           </a>
     </footer> 
   </div>
