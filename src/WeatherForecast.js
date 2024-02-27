@@ -17,10 +17,11 @@ function handleResponse(response) {
 }
 
 function load() { 
-    let apiKey= "6cf684ae65cc4ec4ead1cd6b7c411e81";
+    let apiKey= "203fa770242fcd2b9555d832a88ea567";
     let longitude= props.coordinates.lon;
     let latitude= props.coordinates.lat;
-    let apiUrl=`https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&exclude={part}&appid=${apiKey}&units=metric`;
+    let apiUrl=`https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
+
     
     axios.get(apiUrl).then(handleResponse);
 }
